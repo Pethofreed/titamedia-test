@@ -4,6 +4,7 @@ import {
   Switch,
   Route
 } from 'react-router-dom'
+import LandingPage from './pages/Landing'
 import { history } from './utils/history'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <Router history={history}>
       <Switch>
         <Route exact path="/">
-
+          <LandingPage />
         </Route>
       </Switch>
     </Router>
