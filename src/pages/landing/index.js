@@ -1,5 +1,6 @@
 import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navegation/Navbar'
+import Gallery from '../../components/Gallery'
 import './styles.css'
 
 function LandingPage() {
@@ -18,10 +19,11 @@ function LandingPage() {
       </section>
 
       <section className="second-section">
+        <Gallery />
       </section>
 
       <section className="btn-more">
-
+        <a href="/app">Show Me More</a>
       </section>
 
       <footer>
