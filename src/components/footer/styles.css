@@ -1,0 +1,31 @@
+.footer-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text p {
+  color: #c2ced8;
+  font-family: 'Questrial',sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.footer-text p span {
+  color: #ff5d85;
+  letter-spacing: 2px;
+}
+
+.social-icon {
+  color: #c2ced8;
+  width: 40px;
+}

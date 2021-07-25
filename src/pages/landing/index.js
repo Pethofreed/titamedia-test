@@ -1,3 +1,4 @@
+import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navegation/Navbar'
 import './styles.css'
 
@@ -17,15 +18,14 @@ function LandingPage() {
       </section>
 
       <section className="second-section">
-        
       </section>
 
       <section className="btn-more">
-        
+
       </section>
 
       <footer>
-        
+        <Footer />
       </footer>
     </>
   )
